@@ -1,0 +1,159 @@
+ 
+
+h2 {
+    color: #2C3E50;
+    font-size: 24px;
+
+}
+
+
+iframe {
+    display: block;      
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 100%;    
+}
+
+
+body {
+    background-color: #E6E6FA;
+}
+h1 {
+    color: purple 
+}
+h2 {
+    color: #9370DB; 
+}
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+nav ul {
+    list-style: none;
+    padding: 25;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5a2d82;
+    cursor: pointer;
+}
+/* Contenedor general */
+    .contenedor {
+        width: 90%;
+        max-width: 60px;
+        padding: 20px;
+    }
+/* 
+/* Fila para los cuadros */
+.fila {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Cuadros para Misión y Visión */
+.caja {
+    background: #E8DAEF;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 38%;
+    min-height: 250px; /* Establece una altura mínima para los cuadros */
+}
+
+/* Ajuste del padding para aumentar la altura de los cuadros */
+.caja#vision, .caja#mision {
+    padding: 30px; /* Aumenta el padding vertical para hacer las cajas más grandes */
+}
+
+/* Sección de valores */
+.caja#valores {
+    width: 28%;
+}
+.caja#productos{
+width: 28%
+}
+
+
+/* Para lista de valores */
+.caja ul {
+    list-style: none;
+    padding:0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FCF3CF;
+    padding: 8px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.container{
+backgraund: #FCF3CF;
+margin:auto;
+border-radius: 25px
+}
+.menu li{
+  display: inline-block;
+}
+.menu{ 
+float: right
+}
+.menu{
+margin-top: 30px
+}
+.menu a{
+color:black;
+text-decoration: none;
+padding: 20px
+}
+.menu a:hover{
+background: #8E44AD;
+}
+.col{
+width: 265px;
+display: inline-block;
+vertical-align: top;
+text-align: justify;
+padding:20px;
+
+}
+.row{
+text-align: center;
+}
+p {
+    font-size: 20px;
+}
+li {
+    font-size: 18px; /* Ajusta el tamaño según necesites */
+}
+
+/* Pie de página */
+.footer {
+    background: #A569BD;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
